@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGi utilities
+Bundle-SymbolicName: io.thingstream.osgi
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Thingstream.io
+Import-Package: org.osgi.framework,
+ org.osgi.service.component
+Export-Package: io.thingstream.osgi,
+ io.thingstream.osgi.publisher
